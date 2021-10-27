@@ -1,0 +1,21 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?technologyforall\.in
+RewriteRule ^(.*)$ https://www.technologyforall.in/$1 [R,L]
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+Redirect 301 /data-science-training-course-in-hyderabad-india /online-data-science-course-training-program
+Redirect 301 /full-stack-web-development-course-training /full-stack-web-development-course-training-online
+Redirect 301 /digital-marketing-training-course-in-hyderabad /online-digital-marketing-certification-course-training
+Redirect 301 /aws-training-course-in-hyderabad /#services
+Redirect 301 /devops-course-training-in-hyderabad /#services
+Redirect 301 /python-course-training-in-hyderabad /#services
+Redirect 301 /about-us-who-are-we /About-us
+Redirect 301 /reviews-testimonials /
+Redirect 301 /blog-technology-for-all /
+Redirect 301 /why-the-data-science-course-is-so-popular-in-hyderabad-india /#services
