@@ -1432,7 +1432,7 @@ section {
 }
 
 #courses-fsd-hero {
-	background-image: url(/assets/img/fullstack-bg1.webp);
+	background-image: url(assets/img/fullstack-bg1.webp);
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1461,7 +1461,7 @@ section {
 }
 
 #courses-dm-hero {
-	background-image: url(/assets/img/Digital-marketing-course.webp);
+	background-image: url(assets/img/Digital-marketing-course.webp);
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1505,7 +1505,7 @@ section {
 }
 
 #about-us-bg {
-	background-image: url(/assets/img/about-us-bg.webp)!important;
+	background-image: url(assets/img/about-us-bg.webp)!important;
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1742,7 +1742,7 @@ section {
 }
 
 #about-main {
-	background-image: url(/assets/img/about-bg.webp);
+	background-image: url(assets/img/about-bg.webp);
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1770,7 +1770,7 @@ section {
 }
 
 #about-container {
-	background-image: url(/assets/img/mission-vision.webp);
+	background-image: url(assets/img/mission-vision.webp);
 	height: 730px;
 	background-position: center;
 	background-repeat: no-repeat;
